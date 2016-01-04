@@ -1,0 +1,7 @@
+DIAGRAM Errors:
+
+[  1] Entity 'WORK_ORDER_TASK' cannot be a weak entity without at least one identifying relationship.
+[  2] Entity 'WORK_ORDER_MATERIAL' cannot be a weak entity without at least one identifying relationship.
+[  3] The 'TASK_ID' attribute in the 'WORK_ORDER_TASK' entity type is redundant with the 'USED' relationship. Because 'TASK_ID' is the primary key of 'TASK' it should not be an attribute of 'WORK_ORDER_TASK'.
+[  4] The 'MATERIAL_ID' attribute in the 'WORK_ORDER_MATERIAL' entity type is redundant with the 'NEEDS' relationship. Because 'MATERIAL_ID' is the primary key of 'MATERIAL' it should not be an attribute of 'WORK_ORDER_MATERIAL'.
+[  5] The 'WORK_ORDER_ID' attribute in the 'WORK_ORDER_MATERIAL' entity type is redundant with the 'NEEDS' relationship. Because 'WORK_ORDER_ID' is the primary key of 'WORK_ORDER' it should not be an attribute of 'WORK_ORDER_MATERIAL'.

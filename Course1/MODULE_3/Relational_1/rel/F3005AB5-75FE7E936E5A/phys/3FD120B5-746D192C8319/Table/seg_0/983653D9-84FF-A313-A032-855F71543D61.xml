@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="LOCATION" directorySegmentName="seg_0" id="983653D9-84FF-A313-A032-855F71543D61">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>07707621-5456-1BA8-158A-7E9CBF9A4655</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOCNAME" id="35FEA91B-E34A-923B-960E-F1466EB0E113">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOCNO" id="4E5DB6C0-D6D5-D3C5-F7E9-A5972A0184B2">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACNO" id="DB086DF2-3E68-E8B6-C4A9-A5F45167348C">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0010129" id="9DB266A1-3311-BDB7-66E7-8B12358E52CD">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LOCATION_PK" id="57E2EEE9-F823-BE7B-521E-4FB013D3D33A">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<segment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<indexSegment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

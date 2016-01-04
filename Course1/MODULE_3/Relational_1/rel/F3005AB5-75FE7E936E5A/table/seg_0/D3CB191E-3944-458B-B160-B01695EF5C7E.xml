@@ -1,0 +1,195 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3CB191E-3944-458B-B160-B01695EF5C7E" schemaObject="E076A6D2-9FED-7312-33A7-CD72E4FE52FC" name="EVENTPLANLINE">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>EVENTPLANLINE</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLANNO" id="6CE6A608-5E9E-9085-A6EE-0EC419998D0F">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>PLANNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8EF309D-13D0-5E6C-06C9-82D7F709CC06" referredColumn="3E993FBF-2168-732C-29E2-F34FA8559C93"/>
+</associations>
+</Column>
+<Column name="LINENO" id="AF087266-FFA1-2BF0-A75F-D93F890EB1AE">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>LINENO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMESTART" id="23FB6273-8B32-5D64-51B3-0F3D9C435F20">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>TIMESTART</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMEEND" id="6E7E89A0-E0E8-E198-9FC9-BFBE4B0C1EBD">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>TIMEEND</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMBERFLD" id="14312E94-3DBC-5254-07F7-7C02DE9868A0">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>NUMBERFLD</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCNO" id="4B43536C-B74F-BF85-7B4C-F1DAB07ECDCF">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>LOCNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AC21732-88AC-62F0-EA82-FEF58C13CE56" referredColumn="4E5DB6C0-D6D5-D3C5-F7E9-A5972A0184B2"/>
+</associations>
+</Column>
+<Column name="RESNO" id="80292F13-96D7-D4F2-38F6-8C0305B02A2A">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLANLINE</sourceObjSchema>
+<sourceObjName>RESNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8123BF1A-8D08-7131-E55C-E94CB997D1C0" referredColumn="42633AC6-7045-4F26-0524-21C2BE684849"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C20E6E1E-F13F-6C65-BD05-ACB83473F272" name="PK_EVNTPLLIN">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>PK_EVNTPLLIN</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE6A608-5E9E-9085-A6EE-0EC419998D0F"/>
+<colUsage columnID="AF087266-FFA1-2BF0-A75F-D93F890EB1AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="343D66D0-3EAD-F739-7B2F-F72ED82E6A5E" schemaObject="E076A6D2-9FED-7312-33A7-CD72E4FE52FC" name="PK_EVNTPLLIN">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>PK_EVNTPLLIN</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:06 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE6A608-5E9E-9085-A6EE-0EC419998D0F"/>
+<colUsage columnID="AF087266-FFA1-2BF0-A75F-D93F890EB1AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48D008AF-B1E0-2738-CD6B-4361174087F5" name="SYS_C0010169">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CE6A608-5E9E-9085-A6EE-0EC419998D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63204B7A-5B0B-D35E-A4E9-CBC40AB57FA9" name="SYS_C0010170">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B43536C-B74F-BF85-7B4C-F1DAB07ECDCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8B31F8E-FFC7-C038-289F-34B04AB033F6" name="SYS_C0010171">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80292F13-96D7-D4F2-38F6-8C0305B02A2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHECK_DATE_POSITIONS" directorySegmentName="seg_0" id="7B213483-74C8-C0CA-A098-BCEE60DD8EEB">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>CHECK_DATE_POSITIONS</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<rule>TIMESTART &gt; TIMEEND</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

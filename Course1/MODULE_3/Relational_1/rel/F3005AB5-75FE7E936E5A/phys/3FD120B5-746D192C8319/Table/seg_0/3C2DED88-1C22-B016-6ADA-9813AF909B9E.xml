@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FACILITY" directorySegmentName="seg_0" id="3C2DED88-1C22-B016-6ADA-9813AF909B9E">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>07707621-5456-1BA8-158A-7E9CBF9A4655</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FACNO" id="1B778C8D-3878-DED9-825C-F033AAC66A28">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACNAME" id="1BAB7387-FB9D-F6DE-3DC7-DC4A3DFBCB74">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UQ_FACNAME" id="E520889E-11B5-2282-9403-FEC4A4DC5087">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:07 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<segment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FACILITY_PK" id="1B3DCFC5-621F-22A5-83EB-6A798390FB85">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<segment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<indexSegment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_FACNAME" id="C43FC9C2-1CAB-06E5-C709-C5067E22C14B">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<segment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<existingIndex>E520889E-11B5-2282-9403-FEC4A4DC5087</existingIndex>
+<indexSegment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

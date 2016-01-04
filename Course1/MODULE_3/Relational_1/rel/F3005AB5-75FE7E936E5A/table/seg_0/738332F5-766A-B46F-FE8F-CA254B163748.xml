@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="738332F5-766A-B46F-FE8F-CA254B163748" schemaObject="E076A6D2-9FED-7312-33A7-CD72E4FE52FC" name="CUSTOMERS">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>CUSTOMERS</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:46 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTNO" id="B52F4401-DA77-6743-3CD6-65DBE1B46A83">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUSTNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTNAME" id="7E5D65CC-CCE2-3A7E-1B38-42CC3DDDA1F2">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CUSTNAME</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="52FB6256-B429-270A-E95E-63521ADCE87E">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTERNAL" id="0AE6053B-5A2A-A0C7-5E8D-3FD32C4BFCD7">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>INTERNAL</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTACT" id="39B11DC4-525A-81E9-A1B7-F0766490EFFF">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CONTACT</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="3B9873BE-8026-E1EC-9A9D-67A791D9D398">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="22FE0FCF-F2B1-B25C-C430-D6FC0A291426">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>CITY</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="7B183279-12D1-E1AC-7369-6E844CBC9637">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>STATE</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIP" id="4B95A58A-F8EA-3B3D-9ED1-6E8CF7C6947F">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>CUSTOMERS</sourceObjSchema>
+<sourceObjName>ZIP</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="802A0AC8-38C0-9B98-E4D4-D05C3907882B" schemaObject="E076A6D2-9FED-7312-33A7-CD72E4FE52FC" name="CUSTOMERS_PK">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>SYS_C0010120</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:48 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B52F4401-DA77-6743-3CD6-65DBE1B46A83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

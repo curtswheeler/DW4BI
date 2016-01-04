@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57DD7DFE-7871-E561-1B34-AD01E362B9F0" schemaObject="E076A6D2-9FED-7312-33A7-CD72E4FE52FC" name="EVENTPLAN">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>EVENTPLAN</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLANNO" id="3E993FBF-2168-732C-29E2-F34FA8559C93">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLAN</sourceObjSchema>
+<sourceObjName>PLANNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTNO" id="DF850AB0-9D41-F72F-CB50-1DFCCE34ABB3">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLAN</sourceObjSchema>
+<sourceObjName>EVENTNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="916BDC12-7851-E7F1-831C-1E95897AEE59" referredColumn="B84DD3FD-C27F-7A67-41D4-1394E79DC320"/>
+</associations>
+</Column>
+<Column name="WORKDATE" id="2D429B2E-6FAC-07C9-6BC6-0F9D90AAD50C">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLAN</sourceObjSchema>
+<sourceObjName>WORKDATE</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTES" id="D56FF40E-8047-A86E-F8C1-C481CEC26187">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLAN</sourceObjSchema>
+<sourceObjName>NOTES</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVITY" id="4EF0F1DD-A87B-EBE7-1387-3332FD0C7A2F">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLAN</sourceObjSchema>
+<sourceObjName>ACTIVITY</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<constraintName>CHECK_ACTIVITY_OPTIONS</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;Cleanup&apos;" description=""/>
+<valueDef value="&apos;Operation&apos;" description=""/>
+<valueDef value="&apos;Setup&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPNO" id="D51F4339-C388-37C7-27EE-8644A855894F">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTPLAN</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF6361F7-B644-AD26-408B-9B6F601ADF6F" referredColumn="9A8CD2B9-A979-DB80-B0DF-C215D1071740"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDABD7E4-8C3D-7737-CB06-101EA2D5734E" schemaObject="E076A6D2-9FED-7312-33A7-CD72E4FE52FC" name="EVENTPLAN_PK">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>SYS_C0010157</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:06 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E993FBF-2168-732C-29E2-F34FA8559C93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49B85A14-751C-1D6B-BD18-6910C51EBEBB" name="SYS_C0010158">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF850AB0-9D41-F72F-CB50-1DFCCE34ABB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B864DD10-DCA9-8C39-EDB7-F92221E25C50" name="SYS_C0010159">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D51F4339-C388-37C7-27EE-8644A855894F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMPLOYEE" directorySegmentName="seg_0" id="F2837C28-8518-C477-6FEC-004345CD96E0">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>07707621-5456-1BA8-158A-7E9CBF9A4655</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="EMAIL" id="04FD611D-F2B9-06BC-DEE4-7E4B1A2E426C">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPNAME" id="143793D4-0E5D-FB65-ED2D-9F53CD1A2D71">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="9A8CD2B9-A979-DB80-B0DF-C215D1071740">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPARTMENT" id="D5C74DEA-2BCF-9A4B-011F-5582276377CB">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="FA265580-95E2-C7AE-E554-E7DE4DDB0116">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EMPLOYEE_PK" id="751E7311-B1AF-757A-F843-1FB48884EADA">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<segment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<indexSegment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

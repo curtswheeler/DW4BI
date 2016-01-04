@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EVENTREQUEST" directorySegmentName="seg_0" id="2E4853BB-99A0-3FB7-3EA9-2A2EF57D734A">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>07707621-5456-1BA8-158A-7E9CBF9A4655</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSTNO" id="0E9399D3-B258-B5CD-08B4-7BAC6951D978">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTAUDIENCE" id="3081B28F-F06D-2A6D-53C6-36EE007A719E">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATEAUTH" id="346827B2-5189-1B58-39C6-FEBBC7EA5AA2">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUDNO" id="504D2A89-D70C-343B-E390-F435A49BCD74">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATEHELD" id="6C9E9B53-10DA-EDAE-4225-743159748175">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATEREQ" id="7A01BEF1-F4D2-ABD8-8117-4175E4E7E2DA">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="7D4390E9-9CE0-875B-1D92-5F47DA968144">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTCOST" id="86925173-0D32-4327-F119-9D6CA442BEE8">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EVENTNO" id="B84DD3FD-C27F-7A67-41D4-1394E79DC320">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FACNO" id="DED85472-64F2-9D3A-FDBD-AA84BCA2B22D">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0010151" id="666B4637-2E83-C338-A006-BB2FBFAA83AE">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C0010150" id="94F20803-E6CA-89A4-341B-78D32871A0BC">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EVENTREQUEST_PK" id="C9903B50-C1E5-5235-981B-90ACA882E723">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<segment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<indexSegment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

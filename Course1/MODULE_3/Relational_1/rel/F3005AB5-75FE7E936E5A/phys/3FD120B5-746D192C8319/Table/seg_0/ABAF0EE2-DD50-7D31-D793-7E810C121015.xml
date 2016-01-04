@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="RESOURCETBL" directorySegmentName="seg_0" id="ABAF0EE2-DD50-7D31-D793-7E810C121015">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>07707621-5456-1BA8-158A-7E9CBF9A4655</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="RESNAME" id="01928BF7-5A0A-FC6B-8270-23A17A0E61E9">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RESNO" id="42633AC6-7045-4F26-0524-21C2BE684849">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RATE" id="D1B88ADE-2CAC-A727-6BBB-B802E6B49E89">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RESOURCETBL_PK" id="EA6744A8-880F-7A0A-67D4-DEFCC9CEE621">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<segment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<indexSegment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

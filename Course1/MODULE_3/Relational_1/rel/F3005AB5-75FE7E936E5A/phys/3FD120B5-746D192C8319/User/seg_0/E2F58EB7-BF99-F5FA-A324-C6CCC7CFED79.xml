@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="C##ACME_OWNER" directorySegmentName="seg_0" id="E2F58EB7-BF99-F5FA-A324-C6CCC7CFED79">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjName>C##ACME_OWNER</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:46 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<defTableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</defTableSpace>
+<privileges>UNLIMITED TABLESPACE</privileges>
+</UserOraclev10g>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_EMPNO_POPULATE_PK" directorySegmentName="seg_0" id="D6D6A330-B249-F7C0-AF20-AE17E7880434">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>TRG_EMPNO_POPULATE_PK</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;    SELECT &apos;E&apos; || TO_CHAR(EMPNO_SEQ.NEXTVAL)&lt;br/&gt;    INTO :NEW.EMPNO&lt;br/&gt;    FROM DUAL;&lt;br/&gt;  END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>E2F58EB7-BF99-F5FA-A324-C6CCC7CFED79</owner>
+<table>F2837C28-8518-C477-6FEC-004345CD96E0</table>
+</TriggerOraclev10g>

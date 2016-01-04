@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E4853BB-99A0-3FB7-3EA9-2A2EF57D734A" schemaObject="E076A6D2-9FED-7312-33A7-CD72E4FE52FC" name="EVENTREQUEST">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>EVENTREQUEST</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENTNO" id="B84DD3FD-C27F-7A67-41D4-1394E79DC320">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>EVENTNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATEHELD" id="6C9E9B53-10DA-EDAE-4225-743159748175">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>DATEHELD</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATEREQ" id="7A01BEF1-F4D2-ABD8-8117-4175E4E7E2DA">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>DATEREQ</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FACNO" id="DED85472-64F2-9D3A-FDBD-AA84BCA2B22D">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>FACNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50306079-357E-0A05-6FBB-128BFC94D79A" referredColumn="1B778C8D-3878-DED9-825C-F033AAC66A28"/>
+</associations>
+</Column>
+<Column name="CUSTNO" id="0E9399D3-B258-B5CD-08B4-7BAC6951D978">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>CUSTNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F046FCA6-29D9-E9C1-DD45-B8296F025CD4" referredColumn="B52F4401-DA77-6743-3CD6-65DBE1B46A83"/>
+</associations>
+</Column>
+<Column name="DATEAUTH" id="346827B2-5189-1B58-39C6-FEBBC7EA5AA2">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>DATEAUTH</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="7D4390E9-9CE0-875B-1D92-5F47DA968144">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<constraintName>CHECK_STATUS_OPTIONS</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;Approved&apos;" description=""/>
+<valueDef value="&apos;Denied&apos;" description=""/>
+<valueDef value="&apos;Pending&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTCOST" id="86925173-0D32-4327-F119-9D6CA442BEE8">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>ESTCOST</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTAUDIENCE" id="3081B28F-F06D-2A6D-53C6-36EE007A719E">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>ESTAUDIENCE</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUDNO" id="504D2A89-D70C-343B-E390-F435A49BCD74">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>EVENTREQUEST</sourceObjSchema>
+<sourceObjName>BUDNO</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:04 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9903B50-C1E5-5235-981B-90ACA882E723" schemaObject="E076A6D2-9FED-7312-33A7-CD72E4FE52FC" name="EVENTREQUEST_PK">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>SYS_C0010149</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:06 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B84DD3FD-C27F-7A67-41D4-1394E79DC320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94F20803-E6CA-89A4-341B-78D32871A0BC" name="SYS_C0010150">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DED85472-64F2-9D3A-FDBD-AA84BCA2B22D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="666B4637-2E83-C338-A006-BB2FBFAA83AE" name="SYS_C0010151">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:09 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E9399D3-B258-B5CD-08B4-7BAC6951D978"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

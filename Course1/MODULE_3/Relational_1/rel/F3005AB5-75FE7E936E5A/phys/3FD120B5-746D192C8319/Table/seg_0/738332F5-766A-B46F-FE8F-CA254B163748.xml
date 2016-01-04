@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CUSTOMERS" directorySegmentName="seg_0" id="738332F5-766A-B46F-FE8F-CA254B163748">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>07707621-5456-1BA8-158A-7E9CBF9A4655</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INTERNAL" id="0AE6053B-5A2A-A0C7-5E8D-3FD32C4BFCD7">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CITY" id="22FE0FCF-F2B1-B25C-C430-D6FC0A291426">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTACT" id="39B11DC4-525A-81E9-A1B7-F0766490EFFF">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="3B9873BE-8026-E1EC-9A9D-67A791D9D398">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ZIP" id="4B95A58A-F8EA-3B3D-9ED1-6E8CF7C6947F">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="52FB6256-B429-270A-E95E-63521ADCE87E">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATE" id="7B183279-12D1-E1AC-7369-6E844CBC9637">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTNAME" id="7E5D65CC-CCE2-3A7E-1B38-42CC3DDDA1F2">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CUSTNO" id="B52F4401-DA77-6743-3CD6-65DBE1B46A83">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMERS_PK" id="802A0AC8-38C0-9B98-E4D4-D05C3907882B">
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:42:48 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<schemaObject>E076A6D2-9FED-7312-33A7-CD72E4FE52FC</schemaObject>
+<segment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</segment>
+<tableSpace>4F1BE375-25F2-9884-2337-BD5F56444221</tableSpace>
+<indexSegment>C98BA0FF-E65F-FCFD-3C98-B8EA9298E467</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

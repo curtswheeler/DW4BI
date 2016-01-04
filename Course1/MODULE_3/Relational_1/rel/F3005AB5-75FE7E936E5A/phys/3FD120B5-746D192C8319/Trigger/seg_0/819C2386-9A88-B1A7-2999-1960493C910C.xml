@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_RESNO_POPULATE_PK" directorySegmentName="seg_0" id="819C2386-9A88-B1A7-2999-1960493C910C">
+<sourceConnName>ACME_OWNER</sourceConnName>
+<sourceObjSchema>C##ACME_OWNER</sourceObjSchema>
+<sourceObjName>TRG_RESNO_POPULATE_PK</sourceObjName>
+<createdBy>curt</createdBy>
+<createdTime>2015-12-05 17:43:08 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;    SELECT &apos;R&apos; || TO_CHAR(RESNO_SEQ.NEXTVAL)&lt;br/&gt;    INTO :NEW.RESNO&lt;br/&gt;    FROM DUAL;&lt;br/&gt;  END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>E2F58EB7-BF99-F5FA-A324-C6CCC7CFED79</owner>
+<table>ABAF0EE2-DD50-7D31-D793-7E810C121015</table>
+</TriggerOraclev10g>
