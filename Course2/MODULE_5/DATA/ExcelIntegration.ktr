@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>SSTORETEST</name>
+    <name>ExcelIntegration</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -85,8 +85,8 @@
     <username>C&#x23;&#x23;ACME_OWNER</username>
     <password>Encrypted 2be98af8a18c89d8fae10bd338cc2fe8c</password>
     <servername/>
-    <data_tablespace>ACME_OWNER</data_tablespace>
-    <index_tablespace>ACME_OWNER</index_tablespace>
+    <data_tablespace/>
+    <index_tablespace/>
     <attributes>
       <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
       <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
@@ -654,194 +654,44 @@
         <name2/>
       </key>
       <value>
-        <name>SalesUnits</name>
+        <name>SALESUNITS</name>
         <rename>SalesUnits</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
-        <name>SalesDollar</name>
+        <name>SALESDOLLAR</name>
         <rename>SalesDollar</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
-        <name>SalesCost</name>
+        <name>SALESCOST</name>
         <rename>SalesCost</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
-        <name>CustID</name>
+        <name>CUSTID</name>
         <rename>CustID</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
-        <name>StoreID</name>
+        <name>STOREID</name>
         <rename>StoreID</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
-        <name>ItemID</name>
+        <name>ITEMID</name>
         <rename>ItemID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Day</name>
-        <rename>Day</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Month </name>
-        <rename>Month </rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>Year</name>
-        <rename>Year</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
         <name>TIMENO</name>
         <rename>TIMENO</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>TIMEDAY</name>
-        <rename>TIMEDAY</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>TIMEMONTH</name>
-        <rename>TIMEMONTH</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>TIMEQUARTER</name>
-        <rename>TIMEQUARTER</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>TIMEYEAR</name>
-        <rename>TIMEYEAR</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>TIMEDAYOFWEEK</name>
-        <rename>TIMEDAYOFWEEK</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>TIMEFISCALYEAR</name>
-        <rename>TIMEFISCALYEAR</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>ITEMID_1</name>
-        <rename>ITEMID_1</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>ITEMNAME</name>
-        <rename>ITEMNAME</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>ITEMBRAND</name>
-        <rename>ITEMBRAND</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>ITEMCATEGORY</name>
-        <rename>ITEMCATEGORY</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>ITEMUNITPRICE</name>
-        <rename>ITEMUNITPRICE</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>CUSTID_1</name>
-        <rename>CUSTID_1</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>CUSTNAME</name>
-        <rename>CUSTNAME</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>CUSTPHONE</name>
-        <rename>CUSTPHONE</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>CUSTSTREET</name>
-        <rename>CUSTSTREET</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>CUSTCITY</name>
-        <rename>CUSTCITY</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>CUSTSTATE</name>
-        <rename>CUSTSTATE</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>CUSTZIP</name>
-        <rename>CUSTZIP</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>CUSTNATION</name>
-        <rename>CUSTNATION</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>STOREID_1</name>
-        <rename>STOREID_1</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>DIVID</name>
-        <rename>DIVID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>STOREMANAGER</name>
-        <rename>STOREMANAGER</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>STORESTREET</name>
-        <rename>STORESTREET</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>STORECITY</name>
-        <rename>STORECITY</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>STORESTATE</name>
-        <rename>STORESTATE</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>STOREZIP</name>
-        <rename>STOREZIP</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>STORENATION</name>
-        <rename>STORENATION</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
       <value>
         <name>SALESNO</name>
         <rename>SalesNo</rename>
-        <update>Y</update>
+        <update>N</update>
       </value>
     </lookup>
      <cluster_schema/>
