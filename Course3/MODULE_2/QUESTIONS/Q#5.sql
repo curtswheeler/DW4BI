@@ -1,0 +1,1 @@
+--Query 5: Adjustments by Part Number
